@@ -1130,10 +1130,30 @@
     "@json-rpc-tools/types" "^1.7.6"
     "@pedrouid/environment" "^1.0.1"
 
+"@kin-tools/kin-burn@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@kin-tools/kin-burn/-/kin-burn-1.6.0.tgz#fc937d8ab33101c23fd9117943fd3b82e88585fd"
+  integrity sha512-2If9IS+LhRkzkUkZmwJiteCRmxc0l36AT+DgI1zIgTjWAXedYLk6MuYher+/5Y6gVpKYSivKFT6k8tYzFVBWkA==
+  dependencies:
+    "@kin-tools/kin-memo" "1.6.0"
+    "@kin-tools/kin-transaction" "1.6.0"
+    "@solana/spl-token" "^0.2.0"
+    "@solana/web3.js" "^1.34.0"
+
+"@kin-tools/kin-memo@1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@kin-tools/kin-memo/-/kin-memo-1.6.0.tgz#b63cb996044935ec854db7dd2dd53add84ccf94f"
+  integrity sha512-x/Oxiox7uCYGNbKtZRSSqnNPYpSQFVy4ivuoYXqZ4Yldhl6X8y1L2rE2+V6rL9e+6h1AdnpHIPhCLZkd21W8XQ==
+
 "@kin-tools/kin-memo@^1.3.1":
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/@kin-tools/kin-memo/-/kin-memo-1.3.1.tgz#ed726a842fd83fb728a4e1f619972b87f98a3399"
   integrity sha512-eECC03zShQZHy5bMvi5lRngZbTwpN7jI6F8XKJg7L3PV+kCQkdE+aM73awXDXv05VQ023v3vsdDCL0ZIr8Hw7w==
+
+"@kin-tools/kin-transaction@1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@kin-tools/kin-transaction/-/kin-transaction-1.6.0.tgz#fc5a375e4b45983b9e640a069f01d2bd1f014206"
+  integrity sha512-Tb9xIk13+k4NIxB1Pyz/wSYlNzGvFJfqjlC1zJ5lfD7j/W4AgygwlhaJKdGKQXWV1PnF6gvLkaCvFKsFB5uDLw==
 
 "@kin-tools/kin-transaction@^1.3.1":
   version "1.3.1"
