@@ -1,12 +1,16 @@
 import { BurnSummary, getSummary } from '@kin-tools/kin-burn';
+import { Connection } from '@solana/web3.js';
 import { FC, useEffect, useState } from 'react';
+
+const connection = new Connection(process.env.NEXT_PUBLIC_SOLANA_RPC_HOST);
+const mint = process.env.NEXT_PUBLIC_MINT_ADDRESS;
 
 export const BurntView: FC = () => {
   const [summary, setSummary] = useState<BurnSummary | null>(null);
 
   useEffect(() => {
     if (summary) return;
-    getSummary().then((res) => setSummary(res));
+    getSummary({ connection, mint }).then((res) => setSummary(res));
   }, [summary, setSummary]);
 
   return (
